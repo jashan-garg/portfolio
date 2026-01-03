@@ -28,7 +28,7 @@ function NavBar() {
                 </div>
 
                 {/* Desktop menu */}
-                <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white/60 backdrop-blur-sm shadow-sm mt-1 ml-19">
+                <ul className="hidden md:flex items-center gap-6 lg:gap-8 rounded-full px-12 py-3 bg-white/60 backdrop-blur-sm shadow-sm mt-1 ml-5">
                     {['Home', 'About me', 'My Work', 'Contact'].map((item) => (
                         <li key={item} className="group">
                             <a
@@ -44,10 +44,6 @@ function NavBar() {
 
                 {/* Right actions */}
                 <div className="flex items-center gap-4">
-                    <button>
-                        <Image src={assets.moon_icon} alt="" className="w-6" />
-                    </button>
-
                     <a
                         href="#contact"
                         className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-400 rounded-full font-ovo"
