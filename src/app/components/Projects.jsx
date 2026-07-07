@@ -2,7 +2,7 @@
 
 import React from 'react';
 import Image from 'next/image';
-import { assets, projectList } from '../../../assets/assets.js';
+import { projectList } from '../../../assets/assets.js';
 import { motion } from 'framer-motion';
 import { fadeUp, staggerContainer } from '@/lib/animations';
 
@@ -56,7 +56,6 @@ const Projects = () => {
                                 github,
                                 demo,
                                 leetcode,
-                                platformIcon,
                             },
                             index
                         ) => (
@@ -65,7 +64,7 @@ const Projects = () => {
                                 variants={fadeUp}
                                 whileHover={{ y: -6 }}
                                 transition={{ type: 'spring', stiffness: 300 }}
-                                className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer transition duration-500 hover-shadow-light hover-light"
+                                className="border-[0.5px] border-gray-400 rounded-xl p-6 cursor-pointer transition duration-500 hover-shadow-light hover-light bg-white/60 backdrop-blur-sm"
                             >
                                 {/* Header */}
                                 <div className="flex items-center justify-between">

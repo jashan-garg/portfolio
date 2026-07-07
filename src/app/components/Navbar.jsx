@@ -46,7 +46,7 @@ function NavBar() {
                 <div className="flex items-center gap-4">
                     <a
                         href="#contact"
-                        className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-400 rounded-full font-ovo"
+                        className="hidden lg:flex items-center gap-3 px-10 py-2.5 border border-gray-400 rounded-full font-ovo bg-white/60 backdrop-blur-sm"
                     >
                         Contact
                         <Image src={assets.arrow_icon} alt="" className="w-3" />
