@@ -90,7 +90,7 @@ const Header = () => {
                 </motion.a>
 
                 <motion.a
-                    href="/Jashan_Garg_Resume(1).pdf"
+                    href="/Jashan-Garg-Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     whileHover={{ scale: 1.04 }}
